@@ -1,0 +1,19 @@
+{
+  "name": "controle-estoque-lista-compras",
+  "version": "0.0.1",
+  "description": "Controle de estoque/lista de compras para casa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusMatiasUniver/Controle-estoque-lista-compras.git"
+  },
+  "author": "Matheus Maiante Marques de Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusMatiasUniver/Controle-estoque-lista-compras/issues"
+  },
+  "homepage": "https://github.com/MatheusMatiasUniver/Controle-estoque-lista-compras#readme"
+}
