@@ -1,19 +1,28 @@
 {
   "name": "controle-estoque-lista-compras",
-  "version": "0.0.1",
-  "description": "Controle de estoque/lista de compras para casa.",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MatheusMatiasUniver/Controle-estoque-lista-compras.git"
+  "dependencies": {
+    "@prisma/client": "^7.8.0",
+    "next": "16.2.4",
+    "prisma": "^7.8.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
-  "author": "Matheus Maiante Marques de Almeida",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MatheusMatiasUniver/Controle-estoque-lista-compras/issues"
-  },
-  "homepage": "https://github.com/MatheusMatiasUniver/Controle-estoque-lista-compras#readme"
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }
